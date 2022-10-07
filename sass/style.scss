@@ -56,6 +56,7 @@ li {
     > a {
         display: flex;
         margin: 1rem;
+        margin-inline-end: 1.5rem;
     }
 }
 
@@ -120,4 +121,10 @@ main {
         height: 65vh;
         object-fit: cover;
     }
+}
+
+button:hover {
+    background-color: variable.$secondary-color;
+    border: 0.2rem solid variable.$primary-color;
+    color: variable.$primary-color;
 }

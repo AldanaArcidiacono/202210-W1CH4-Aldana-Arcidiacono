@@ -49,6 +49,7 @@ ul {
 li > a {
   display: flex;
   margin: 1rem;
+  margin-inline-end: 1.5rem;
 }
 
 a {
@@ -104,6 +105,12 @@ main img {
   width: 30vw;
   height: 65vh;
   object-fit: cover;
+}
+
+button:hover {
+  background-color: #ffffff;
+  border: 0.2rem solid #ed6436;
+  color: #ed6436;
 }
 
 /*# sourceMappingURL=style.css.map */
